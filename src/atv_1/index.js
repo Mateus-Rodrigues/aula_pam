@@ -14,6 +14,10 @@ export default function Atividade1 () {
              <Text style={styles.titulo}>
                 Atividade 1
             </Text>
+            
+            <Ola>cremilda</Ola>
+            <Ola>garibe</Ola>
+            
         </View>
     );
 }
