@@ -21,7 +21,7 @@ function decrementar (){
    }
 
 function Zerar (){
-    setContador (contador - contador);
+    setContador (0);
    }   
 
     return(
@@ -30,13 +30,13 @@ function Zerar (){
 
             
 
-            <View style = {styles.counter}>
+            <View style = {styles.containerLadoLado}>
                 
-                <TouchableOpacity style={styles.botao} onPress={() => incrementar()}>
+                <TouchableOpacity style={[styles.botao, styles.botaoContainer ]} onPress={() => incrementar()}>
                 <Text style={styles.txtBotao}>+</Text>
                  </TouchableOpacity>
                  <Text style = {styles.contador}>{contador}</Text>
-                <TouchableOpacity style={styles.botao} onPress={() => decrementar()}>
+                <TouchableOpacity style={[styles.botao, styles.botaoContainer]} onPress={() => decrementar()}>
                 <Text style={styles.txtBotao}>-</Text>
                 </TouchableOpacity>
             </View>

@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
         color: 'blue',
     },
     botao: {
-        width: '70%',
+        width: '80%',
         padding: 10,
         margin: 20,
         backgroundColor: '#000',
@@ -38,6 +38,23 @@ const styles = StyleSheet.create({
         display: 'flex',
         flexDirection: 'row',
         justifyContent:'center'
+        
+    },
+
+    containerLadoLado: {
+        //borderWidth: 3,
+        width: '100%',
+        //height: 200,
+        marginTop: 20,
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent:'space-between'
+
+    },
+
+    botaoContainer: {
+        width: '25%',
+        marginHorizontal: 0,
         
     }
 });
