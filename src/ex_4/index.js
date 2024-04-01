@@ -31,6 +31,10 @@ export default function Exemplo4 (){
              onChangeText={(vlr) => setTxt2(vlr)}
              value={txt2}
             />
+
+            <Pressable style={({pressed}) => pressed ? [styles.botao, styles.botaoPress] : styles.botao}>
+                <Text style={styles.txtBotao}>Exibir Texto</Text>
+            </Pressable>
         </View>
     );
 } 

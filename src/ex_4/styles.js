@@ -43,11 +43,12 @@ const styles = StyleSheet.create({
     },
 
     botao:{
-        width: '70%',
+        width: '80%',
         padding: 16,
         alignItems: 'center',
         borderRadius: 20,
-        backgroundColor: '#b71c1c'
+        backgroundColor: '#b71c1c',
+        marginVertical: 20
     },
 
     botaoPress:{
