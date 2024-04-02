@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
     },
 
     botaoPress:{
-        backgroundColor: 'fff'
+        backgroundColor: '#fff'
     },
 
     txtBotao: {
@@ -62,6 +62,10 @@ const styles = StyleSheet.create({
 
     txtBotaoPress: {
         color: '#b71c1c'
+    },
+
+    imge: {
+        borderRadius: '100%'
     }
 
 });
