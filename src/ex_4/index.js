@@ -12,6 +12,11 @@ export default function Exemplo4 (){
     function atualizaTextoHandle (txt){
         setTextDigitado(txt);
     }
+
+    function handleExibeTexto () {
+        setTxtTela(txt2);
+        setTxt2('');
+    }
     return(
         <View style={styles.container}>
 
@@ -33,7 +38,10 @@ export default function Exemplo4 (){
              value={txt2}
             />
 
-            <Pressable style={({pressed}) => pressed ? [styles.botao, styles.botaoPress] : styles.botao}>
+            <Pressable 
+                style={({pressed}) => pressed ? [styles.botao, styles.botaoPress] : styles.botao} 
+                onPress={() => handleExibeTexto () }
+            >
                 <Text style={styles.txtBotao}>Exibir Texto</Text>
             </Pressable>
         </View>
