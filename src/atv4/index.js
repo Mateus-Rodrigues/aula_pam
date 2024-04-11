@@ -19,6 +19,7 @@ export default function Atividade4 () {
             <label style={styles.label}>nome</label>
             <TextInput style={styles.input}>
             onChangeText={(valor) => handleMsgRecebida(valor)}
+
             </TextInput>
             
             <label style={styles.label}>Sobrenome</label>
@@ -26,4 +27,4 @@ export default function Atividade4 () {
             
         </View>
     )
-}
+    } 
