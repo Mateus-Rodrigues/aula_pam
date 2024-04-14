@@ -6,7 +6,7 @@ import { StyleSheet, View } from 'react-native';
 //import Atividade1 from './src/atv_1';
 
 //import Exemplo55 from './src/ex_5';
-import Exemplo5 from './ex_5';
+import Exemplo5 from './src/ex_5';
 
 export default function App() {
   return (
