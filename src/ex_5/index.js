@@ -8,8 +8,8 @@ export default function Exemplo5 (){
 const [isFocusN1, setIsFocusN1] = useState(false);
 const [isFocusN2, setIsFocusN2] = useState(false);
 const [isFocusTotal, setIsFocusTotal] = useState(false);
-const [n1, setN1] = useState(0);
-const [n2, setN2] = useState(0);
+const [n1, setN1] = useState();
+const [n2, setN2] = useState();
 const [total, setTotal] = useState('');
 
 function soma() {
@@ -27,7 +27,7 @@ function soma() {
 
                  onFocus={() => setIsFocusN1(true)}
                  onBlur={() => setIsFocusN1(false)}
-                 onChange={(num1) => setN1(num1)}
+                 onChangeText={(num1) => setN1(num1)}
                  value={n1}
                  keyboardType='numeric'
 
@@ -40,7 +40,7 @@ function soma() {
                  <TextInput style={[styles.txtEntrada, isFocusN2 ?{borderColor: '#C51162', outline: 'none',}:{ }]}
                    onFocus={() => setIsFocusN2(true)}
                    onBlur={() => setIsFocusN2(false)}
-                   onChange={(num2) => setN2(num2)}
+                   onChangeText={(num2) => setN2(num2)}
                    value={n2}
                    keyboardType='numeric'
                  
