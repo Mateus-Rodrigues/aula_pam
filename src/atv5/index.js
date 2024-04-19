@@ -17,12 +17,10 @@ function soma() {
     setTotal(parseFloat(n1) + parseFloat(n2));
 
 }
-
 function sub () {
   setTotal(parseFloat(n1) - parseFloat(n2));
 
 }
-
 function mult () {
     setTotal(parseFloat(n1) * parseFloat(n2));
   
