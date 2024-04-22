@@ -38,7 +38,7 @@ function zerar () {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.titulo}> Exemplo 5 </Text>
+            <Text style={styles.titulo}> Atividade 5 </Text>
 
             <Text style={styles.txtSaida}> Calculadora básica </Text>
 
