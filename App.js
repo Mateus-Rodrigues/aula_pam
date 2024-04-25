@@ -6,12 +6,12 @@ import { StyleSheet, View } from 'react-native';
 //import Atividade1 from './src/atv_1';
 
 //import Exemplo55 from './src/ex_5';
-import Atividade5  from './src/atv5';
+import Appgarden  from './src/tela1';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Atividade5/>
+      <Appgarden/>
       <StatusBar style="auto" />
     </View>
   );
@@ -23,6 +23,5 @@ const styles = StyleSheet.create({
    backgroundColor: 'orange',
    alignItems: 'center',
    justifyContent: 'center',
-   padding: 18,
   },
 });
