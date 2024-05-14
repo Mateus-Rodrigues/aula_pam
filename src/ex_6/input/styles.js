@@ -8,6 +8,7 @@ const styles = StyleSheet.create({
         width: '50%',
         color: 'lightgray',
         fontSize: 50,
+        borderColor: '#000'
     },
 
 });
