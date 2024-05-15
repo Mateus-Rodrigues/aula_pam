@@ -3,12 +3,16 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
     input: {
-        height: 80,
-        textAlign: 'center',
-        width: '50%',
+        // textAlign: 'center',
+        width: '95%',
         color: 'lightgray',
-        fontSize: 50,
-        borderColor: '#000'
+        fontSize: 15,
+        borderColor: '#000',
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'center',
+        margin: 10,
+        padding: 5
     },
 
 });

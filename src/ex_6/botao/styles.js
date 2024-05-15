@@ -4,7 +4,11 @@ const styles = StyleSheet.create({
     botao: {
         backgroundColor: '#89ffa5',
         width: '95%',
-        borderRadius: 20,
+        borderRadius: 10,
+        padding: 2.5,
+        textAlign: 'center',
+        color: '#fff',
+        fontWeight: 'bold'
 
     },
 
