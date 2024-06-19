@@ -6,9 +6,8 @@ import Botao from './botao';
 
 export default function IMC () {
     return (
-        <View style={styles.container}>
-
+        <>
             <Input />
-        </View>
+        </>
     )
 } 
