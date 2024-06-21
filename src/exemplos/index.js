@@ -6,13 +6,13 @@ export default function Exemplos ({navigation}) {
             <Pressable onPress={() => navigation.navigate('Ex2')}>
                 <Text>Exemplo 2</Text>
             </Pressable>
-            <Pressable onPress={() => Navigation.navigate('Ex3')}>
+            <Pressable onPress={() => navigation.navigate('Ex3')}>
                 <Text>Exemplo 3</Text>
             </Pressable>
-            <Pressable onPress={() => Navigation.navigate('Ex4')}>
+            <Pressable onPress={() => navigation.navigate('Ex4')}>
                 <Text>Exemplo 4</Text>
             </Pressable>
-            <Pressable onPress={() => Navigation.navigate('Ex5')}>
+            <Pressable onPress={() => navigation.navigate('Ex5')}>
                 <Text>Exemplo 5</Text>
             </Pressable>
         </View>
